@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.mealprep"
+        versionCode = "1" 
+        version     = "1.0.0" >
+ 
+        
+<preference name="permissions" value="none" />
+
+    <preference name="SplashScreen" value="splash" /> 
+        <preference name="SplashScreenDelay" value="4000" />
+
+    
+
+    
+    <gap:plugin name="cordova-plugin-splashscreen" version="3.1.0" source="npm" />  
+<plugin name='cordova-plugin-whitelist' source='npm' />
+
+<plugin name="de.appplant.cordova.plugin.local-notification" spec="0.8.4" source="npm" />
+    <!-- versionCode is Android only -->
+    <!-- version is in major.minor.patch format --> 
+    <name>MealPrep</name>
+ 
+    <description>
+        It's a meal come true!
+    </description>
+ 
+    <author href="" email="">
+DZ
+</author>
+
+
+     <icon src="icon.png" />       
+    <splash src="splash.png" />
+           <allow-navigation href="*" />
+    <allow-intent href="*" />
+<access origin="*" />
+
+ 
+</widget>
